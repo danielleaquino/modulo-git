@@ -18,6 +18,8 @@ def mostrar_mensagem_inicial():
     Exibe uma mensagem de boas-vindas ao desafio.
     Retorno esperado: string com a mensagem "Bem-vindo ao Desafio de Git!"
     """
+    print("Bem-vindo ao Desafio de Git!")
+    
     pass
 
 def listar_comandos_git_basicos():
@@ -38,7 +40,7 @@ def criar_mensagem_commit(funcao_nome):
     """
     pass
 
-
+@danielleaquino's untitled project
 def verificar_tag_valida(tag):
     """
     Verifica se uma tag está no formato 'vX.Y' (ex: v1.0, v2.1).
