@@ -28,6 +28,8 @@ def listar_comandos_git_basicos():
     Exemplo de saída:
     ["git init", "git add", "git commit", "git status", "git push"]
     """
+    return ["git init", "git add", "git commit", "git status", "git push"]
+    
     pass
 
 
@@ -40,7 +42,6 @@ def criar_mensagem_commit(funcao_nome):
     """
     pass
 
-@danielleaquino's untitled project
 def verificar_tag_valida(tag):
     """
     Verifica se uma tag está no formato 'vX.Y' (ex: v1.0, v2.1).
